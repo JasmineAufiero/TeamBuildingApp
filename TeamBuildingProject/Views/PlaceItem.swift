@@ -13,6 +13,8 @@ struct PlaceItem: View {
     var body: some View {
         
         HStack {
+           
+            
             Image(place.name)
                 .resizable()
                 .frame(width: 70, height: 70, alignment: .leading)

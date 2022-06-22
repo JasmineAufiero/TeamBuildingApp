@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27CD129228632CBA009E3DA4 /* AnimateImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CD129128632CBA009E3DA4 /* AnimateImages.swift */; };
 		479ADFE028630151005F4786 /* TeamBuildingProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479ADFDF28630151005F4786 /* TeamBuildingProjectApp.swift */; };
 		479ADFE228630151005F4786 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479ADFE128630151005F4786 /* ContentView.swift */; };
 		479ADFE428630152005F4786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479ADFE328630152005F4786 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27CD129128632CBA009E3DA4 /* AnimateImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateImages.swift; sourceTree = "<group>"; };
 		479ADFDC28630151005F4786 /* TeamBuildingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamBuildingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		479ADFDF28630151005F4786 /* TeamBuildingProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamBuildingProjectApp.swift; sourceTree = "<group>"; };
 		479ADFE128630151005F4786 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			children = (
 				47CD30BF28630E07002BF20C /* PlacesList.swift */,
 				47CD30C128630E22002BF20C /* PlacesDetail.swift */,
+				27CD129128632CBA009E3DA4 /* AnimateImages.swift */,
 				47CD30C328630EF1002BF20C /* PlaceItem.swift */,
 			);
 			path = Views;
@@ -171,6 +174,7 @@
 				47CD30C428630EF1002BF20C /* PlaceItem.swift in Sources */,
 				47CD30BA286305B6002BF20C /* Place.swift in Sources */,
 				479ADFE228630151005F4786 /* ContentView.swift in Sources */,
+				27CD129228632CBA009E3DA4 /* AnimateImages.swift in Sources */,
 				47CD30C228630E22002BF20C /* PlacesDetail.swift in Sources */,
 				479ADFE028630151005F4786 /* TeamBuildingProjectApp.swift in Sources */,
 				47CD30BE28630680002BF20C /* PlaceStorage.swift in Sources */,

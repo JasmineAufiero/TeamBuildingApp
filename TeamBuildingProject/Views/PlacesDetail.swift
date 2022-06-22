@@ -12,10 +12,14 @@ struct PlacesDetail: View {
     
     var body: some View {
         VStack(alignment: .center, spacing: 10) {
-            Image(place.name)
-                .resizable()
-                .frame(width: 170, height: 170, alignment: .leading)
-                .clipShape(Circle())
+            
+            AnimatedIcon(name: "CoinShine")
+                .frame(width: 70, height: 70, alignment: .leading)
+            Spacer().frame( height: 20)
+//            Image(place.name)
+//                .resizable()
+//                .frame(width: 170, height: 170, alignment: .leading)
+//                .clipShape(Circle())
             
             Text(place.name)
                 .font(.title2)
