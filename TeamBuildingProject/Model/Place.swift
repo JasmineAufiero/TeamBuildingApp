@@ -13,6 +13,7 @@ struct Place :Identifiable {
     var suggestions :String
     var description :String
     var category :String
+    var warnings :String
     var location :String
     var link :String
     var isFavorite :Bool

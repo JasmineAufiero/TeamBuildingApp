@@ -11,22 +11,61 @@ struct PlacesDetail: View {
     var place :Place
     
     var body: some View {
-        VStack(alignment: .center, spacing: 10) {
-            Image(place.name)
-                .resizable()
-                .frame(width: 170, height: 170, alignment: .leading)
-                .clipShape(Circle())
+        
+        ScrollView {
             
-            Text(place.name)
-                .font(.title2)
-                .fontWeight(.bold)
-                .padding()
+            VStack {
+                Image(place.name)
+                    .resizable()
+                    .frame(width: 170, height: 170, alignment: .leading)
+                    .clipShape(Circle())
+                
+                Text(place.name)
+                    .font(.title)
+                    .fontWeight(.bold)
+                
+                VStack(alignment: .leading) {
+                    
+                    Text("Suggestions")
+                        .fontWeight(.bold)
+                        .multilineTextAlignment(.leading)
+                        .padding(.vertical, 2)
+                    
+                    Text(place.suggestions)
+                        .font(.body)
+                        .multilineTextAlignment(.leading)
+                        .foregroundColor(.secondary)
+                    
+                    
+                    Text("Description")
+                        .fontWeight(.bold)
+                        .multilineTextAlignment(.leading)
+                        .padding(.vertical, 2)
+                    
+                    Text(place.description)
+                        .font(.body)
+                        .foregroundColor(.secondary)
+                        .multilineTextAlignment(.leading)
+                    
+                    Text("Warnings")
+                        .fontWeight(.bold)
+                        .multilineTextAlignment(.leading)
+                        .padding(.vertical, 2)
+                    
+                    Text(place.warnings)
+                        .font(.body)
+                        .multilineTextAlignment(.leading)
+                        .foregroundColor(.secondary)
+                    
+                
+                }.padding(.horizontal)
+            }
         }
     }
 }
 
 struct PlacesDetail_Previews: PreviewProvider {
     static var previews: some View {
-        PlacesDetail(place: Place(name: "Panificio Michelangelo Bobb", suggestions: "Pizza" , description: "You can order take-away food directly from the Academy and collect it a maximum of one hour later. Bobb is a bakery that produces baked goods of the typical Neapolitan cuisine. Here you can find bread, obviously pizza, but also the lesser known by non-Neapolitans, taralli, Neapolitan panini, casatielli (rustic pies with ricotta and salami). Warning: most Neapolitan food contains cured meats. The portions are very generous!", category: "food", location: "Viale Michelangelo, 27, 80040 Cercola NA", link: "https://apps.apple.com/it/app/bobb/id1538023603", isFavorite: false))
+        PlacesDetail(place: Place(name: "Panificio Michelangelo Bobb", suggestions: "Pizza" , description: "Bobb is a bakery that produces baked goods of the typical Neapolitan cuisine. Here you can find bread, obviously pizza, but also the lesser known by non-Neapolitans, taralli, Neapolitan panini, casatielli (rustic pies with ricotta and salami). Warning: most Neapolitan food contains cured meats. The portions are very generous!", category: "food",warnings: "Most Neapolitan food contains cured meats. The portions are very generous!", location: "Viale Michelangelo, 27, 80040 Cercola NA", link: "https://apps.apple.com/it/app/bobb/id1538023603", isFavorite: false))
     }
 }
