@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct PlacesDetail: View {
+    
     var place :Place
     
     var body: some View {
@@ -57,8 +58,20 @@ struct PlacesDetail: View {
                         .multilineTextAlignment(.leading)
                         .foregroundColor(.secondary)
                     
+                    Text("Link")
+                        .fontWeight(.bold)
+                        .multilineTextAlignment(.leading)
+                        .padding(.vertical, 2)
+                    
+                    Text(place.link)
+                        .font(.body)
+                        .multilineTextAlignment(.leading)
+                        .foregroundColor(.secondary)
+                    
                 
                 }.padding(.horizontal)
+                    
+                
             }
         }
     }
