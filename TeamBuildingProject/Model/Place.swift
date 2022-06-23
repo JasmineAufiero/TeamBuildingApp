@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import MapKit
 
 struct Place :Identifiable {
     let id = UUID()
@@ -17,5 +18,6 @@ struct Place :Identifiable {
     var location :String
     var link :String
     var isFavorite :Bool
+    let coordinate : CLLocationCoordinate2D
     
 }
