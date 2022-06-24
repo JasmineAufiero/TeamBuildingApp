@@ -8,8 +8,8 @@
 import Foundation
 import MapKit
 
-struct PlaceStorage : ObservableObject {
-    static let  places : [Place] = [
+class PlaceStorage : ObservableObject {
+    @Published var places : [Place] = [
         Place(name: "Panificio Michelangelo Bobb",
               suggestions: "You can order take-away food directly from the Academy and collect it a maximum of one hour later." ,
               description: "Bobb is a bakery that produces baked goods of the typical Neapolitan cuisine. Here you can find bread, obviously pizza, but also the lesser known by non-Neapolitans, taralli, Neapolitan panini, casatielli (rustic pies with ricotta and salami).",
