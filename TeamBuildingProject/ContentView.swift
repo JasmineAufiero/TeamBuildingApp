@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+   @ObservedObject var placestorage = PlaceStorage()
     var body: some View {
-        Text("Helloo, worrrld!")
-            .padding()
+        NavigationView{
+            ScrollView{
+                VStack{
+                    ForEach(placestorage.places){item in
+                    NavigationLink(destination: PlacesDetail(place: item), label: {
+                        PlaceItem(place: item)
+                        
+                    })
+                      }
+                }
+            }
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
