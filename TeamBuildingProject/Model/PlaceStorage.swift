@@ -17,7 +17,7 @@ class PlaceStorage {
               warnings: "Most Neapolitan food contains cured meats. The portions are very generous!",
               location: "Viale Michelangelo, 27, 80040 Cercola NA",
               link: "https://apps.apple.com/it/app/bobb/id1538023603",
-              isFavorite: false,
+              color: "color1",
               coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
                 ),
         
@@ -28,7 +28,7 @@ class PlaceStorage {
               warnings: "Frosina is a meeting place for some students of the Academy, but mainly for mentors, so keep your eyes and ears sharp!",
               location: "Corso San Giovanni a Teduccio 309-311, 80146 Napoli",
               link: "https://www.frosinagastronomia.it",
-              isFavorite: false,
+              color: "color2",
               coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
                 ),
         
@@ -39,7 +39,7 @@ class PlaceStorage {
               warnings: "Start small and work your way to the big pizza fritta!",
               location: "Viale 2 Giugno, 53, 80146 Napoli NA",
               link: "https://www.tripadvisor.it/Restaurant_Review-g187785-d6696809-Reviews-Ristorante_Bar_Pizzeria_Ermenegildo-Naples_Province_of_Naples_Campania.html",
-              isFavorite: false,
+              color: "color3",
               coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
              ),
         
@@ -50,7 +50,7 @@ class PlaceStorage {
               warnings: "Don't go in the spring time if you suffer from allergies!",
               location: "Piazza Carlo di Borbone, 81100 Caserta CE",
               link: "https://reggiadicaserta.cultura.gov.it",
-              isFavorite: false,
+              color: "color4",
               coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
                 ),
         Place(name: "Teatro San Carlo",
@@ -60,7 +60,7 @@ class PlaceStorage {
               warnings: "Wear something light, because even during winter it's hot inside",
               location: "Via San Carlo, 98, 80132 Napoli NA",
               link: "https://www.teatrosancarlo.it",
-              isFavorite: false,
+              color: "color1",
               coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
                 ),
         Place(name: "La Pokeria",
@@ -70,7 +70,7 @@ class PlaceStorage {
               warnings: "The bowls are NOT small!",
               location: "Corso Giuseppe Garibaldi, 60, 80055 Portici NA",
               link: "https://lapokeria.it",
-              isFavorite: false,
+              color: "color2",
               coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
                 ),
         Place(name: "Reggai di Portici",
@@ -80,7 +80,7 @@ class PlaceStorage {
               warnings: "Beware if you suffer from allergies and you want to visit the woods!",
               location: "Via Università, 100, Portici NA",
               link: "https://www.centromusa.it/it/real-sito-di-portici.html",
-              isFavorite: false,
+              color: "color3",
               coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
                 ),
         Place(name: "Shifu Ramen",
@@ -90,39 +90,40 @@ class PlaceStorage {
               warnings: "",
               location: "",
               link: "",
-              isFavorite: false,
-              coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
-                ),
-        Place(name: "",
-              suggestions: "" ,
-              description: "",
-              category: "",
-              warnings: "",
-              location: "",
-              link: "",
-              isFavorite: false,
-              coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
-                ),
-        Place(name: "",
-              suggestions: "" ,
-              description: "",
-              category: "",
-              warnings: "",
-              location: "",
-              link: "",
-              isFavorite: false,
-              coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
-                ),
-        Place(name: "",
-              suggestions: "" ,
-              description: "",
-              category: "",
-              warnings: "",
-              location: "",
-              link: "",
-              isFavorite: false,
+              color: "color4",
               coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
                 )
+//        ,
+//        Place(name: "",
+//              suggestions: "" ,
+//              description: "",
+//              category: "",
+//              warnings: "",
+//              location: "",
+//              link: "",
+//              isFavorite: false,
+//              coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
+//                ),
+//        Place(name: "",
+//              suggestions: "" ,
+//              description: "",
+//              category: "",
+//              warnings: "",
+//              location: "",
+//              link: "",
+//              isFavorite: false,
+//              coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
+//                ),
+//        Place(name: "",
+//              suggestions: "" ,
+//              description: "",
+//              category: "",
+//              warnings: "",
+//              location: "",
+//              link: "",
+//              isFavorite: false,
+//              coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
+//                )
     
     
     ]

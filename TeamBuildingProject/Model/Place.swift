@@ -17,7 +17,7 @@ struct Place :Identifiable {
     var warnings :String
     var location :String
     var link :String
-    var isFavorite :Bool
+    var color :String
     let coordinate : CLLocationCoordinate2D
     
 }
