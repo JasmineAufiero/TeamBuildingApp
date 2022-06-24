@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27CD12942865AE49009E3DA4 /* AnimatedImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CD12932865AE49009E3DA4 /* AnimatedImages.swift */; };
 		3C4703122865A69100FF7EEC /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4703112865A69100FF7EEC /* PinView.swift */; };
 		3CF589A92864E66100A90619 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF589A82864E66100A90619 /* MapView.swift */; };
 		3CF589AB2864E6F600A90619 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF589AA2864E6F600A90619 /* MapViewModel.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27CD12932865AE49009E3DA4 /* AnimatedImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImages.swift; sourceTree = "<group>"; };
 		3C4703112865A69100FF7EEC /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
 		3CF589A82864E66100A90619 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		3CF589AA2864E6F600A90619 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				47CD30C128630E22002BF20C /* PlacesDetail.swift */,
 				3C4703112865A69100FF7EEC /* PinView.swift */,
 				47CD30C328630EF1002BF20C /* PlaceItem.swift */,
+				27CD12932865AE49009E3DA4 /* AnimatedImages.swift */,
 				3CF589A82864E66100A90619 /* MapView.swift */,
 			);
 			path = Views;
@@ -193,6 +196,7 @@
 				47CD30C228630E22002BF20C /* PlacesDetail.swift in Sources */,
 				479ADFE028630151005F4786 /* TeamBuildingProjectApp.swift in Sources */,
 				47CD30BE28630680002BF20C /* PlaceStorage.swift in Sources */,
+				27CD12942865AE49009E3DA4 /* AnimatedImages.swift in Sources */,
 				47CD30C028630E07002BF20C /* PlacesList.swift in Sources */,
 				3CF589AB2864E6F600A90619 /* MapViewModel.swift in Sources */,
 			);
