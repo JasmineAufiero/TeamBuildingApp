@@ -12,22 +12,38 @@ struct PlaceItem: View {
     
     var body: some View {
         
-        HStack {
+        RoundedRectangle(cornerRadius: 50)
+            .foregroundColor(.white)
+            .shadow(color: .gray, radius: 2, x: 0, y: 2)
+            .padding()
+            .frame(height: 120, alignment: .center).cornerRadius(30)
+          
+            .overlay(  HStack {
+                
+//
+//                AnimatedIcon(name: "CoinShine")
+//                    .clipShape(Circle())
+//                    .frame(width: 70, height: 70, alignment: .center)
+//
+                Image(place.name)
+                    .resizable()
+                    .frame(width: 70, height: 70, alignment: .leading)
+
+                
+                
+                Text(place.name)
+                    .fontWeight(.semibold)
+                    .multilineTextAlignment(.leading)
+                    .padding(.horizontal)
+                
+                
+            })
+        
+        
            
-            
-            Image(place.name)
-                .resizable()
-                .frame(width: 70, height: 70, alignment: .leading)
-                .clipShape(Circle())
-            
-            
-            Text(place.name)
-                .fontWeight(.semibold)
-                .multilineTextAlignment(.leading)
-                .padding(.horizontal)
-            
-            
-        }.padding()
+      
+//            .foregroundColor(.gray)
+       
   
     }
     
