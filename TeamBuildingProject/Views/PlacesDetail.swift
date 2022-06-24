@@ -23,10 +23,24 @@ struct PlacesDetail: View {
                     .clipShape(Circle())
                     .overlay(Circle().stroke(Color.white, lineWidth: 2))
                 
-                Text(place.name)
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color.white)
+                
+                HStack {
+                    Text(place.name)
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(Color.white)
+                    
+                    Button {
+                        print("Edit button was tapped")
+                    } label: {
+                        Image(systemName: "map.circle")
+                            .resizable()
+                            .foregroundColor(Color.white)
+                            .frame(width: 30, height: 30, alignment: .trailing)
+                    }
+                       
+                }
+                
                 
                 VStack(alignment: .leading) {
                     
