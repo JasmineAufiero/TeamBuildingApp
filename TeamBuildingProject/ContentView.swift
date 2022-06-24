@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var placestorage : PlaceStorage
     var body: some View {
-        Text("Helloo, worrrld!")
-            .padding()
+        NavigationView{
+            ScrollView{
+                VStack{
+                    ForEach(placestorage.places){item in
+                    NavigationLink(destination: PlacesDetail(place: item), label: {
+                        PlaceItem(place: item)
+                        
+                    })
+                      }
+                }
+            }
+        }
     }
 }
 

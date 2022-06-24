@@ -8,7 +8,7 @@
 import Foundation
 import MapKit
 
-class PlaceStorage {
+struct PlaceStorage : ObservableObject {
     static let  places : [Place] = [
         Place(name: "Panificio Michelangelo Bobb",
               suggestions: "You can order take-away food directly from the Academy and collect it a maximum of one hour later." ,
