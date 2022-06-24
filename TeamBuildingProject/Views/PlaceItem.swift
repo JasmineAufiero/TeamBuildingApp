@@ -13,22 +13,33 @@ struct PlaceItem: View {
     
     var body: some View {
         
-        HStack {
-            Image(place.name)
-                .resizable()
-                .frame(width: 70, height: 70, alignment: .leading)
-                .clipShape(Circle())
-                .shadow(radius: 10)
-                .overlay(Circle().stroke(Color.gray, lineWidth: 2))
-            
-            
-            Text(place.name)
-                .fontWeight(.semibold)
-                .multilineTextAlignment(.leading)
-                .padding(.horizontal)
-            
-            
-        }.padding()
+        RoundedRectangle(cornerRadius: 50)
+                  .foregroundColor(.white)
+                  .shadow(color: .gray, radius: 2, x: 0, y: 2)
+                  .padding(10)
+                  .frame(height: 120, alignment: .center).cornerRadius(30)
+                  .overlay(        HStack {
+                      Image(place.name)
+                          .resizable()
+                          .frame(width: 70, height: 70, alignment: .leading)
+                          .clipShape(Circle())
+                          .shadow(radius: 10)
+                          .overlay(Circle().stroke(Color.gray, lineWidth: 2))
+                      Spacer()
+                      
+                      Text(place.name)
+                          .font(.system(size: 20))
+                          .fontWeight(.semibold)
+                        
+                          .multilineTextAlignment(.leading)
+//                          .padding(.horizontal)
+                      
+                      
+                  }
+                    .padding()
+)
+        
+        
   
     }
     
