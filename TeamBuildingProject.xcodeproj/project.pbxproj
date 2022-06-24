@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C4703122865A69100FF7EEC /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4703112865A69100FF7EEC /* PinView.swift */; };
 		3CF589A92864E66100A90619 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF589A82864E66100A90619 /* MapView.swift */; };
 		3CF589AB2864E6F600A90619 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF589AA2864E6F600A90619 /* MapViewModel.swift */; };
 		479ADFE028630151005F4786 /* TeamBuildingProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479ADFDF28630151005F4786 /* TeamBuildingProjectApp.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C4703112865A69100FF7EEC /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
 		3CF589A82864E66100A90619 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		3CF589AA2864E6F600A90619 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		479ADFDC28630151005F4786 /* TeamBuildingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamBuildingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +108,7 @@
 			children = (
 				47CD30BF28630E07002BF20C /* PlacesList.swift */,
 				47CD30C128630E22002BF20C /* PlacesDetail.swift */,
+				3C4703112865A69100FF7EEC /* PinView.swift */,
 				47CD30C328630EF1002BF20C /* PlaceItem.swift */,
 				3CF589A82864E66100A90619 /* MapView.swift */,
 			);
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C4703122865A69100FF7EEC /* PinView.swift in Sources */,
 				47CD30C428630EF1002BF20C /* PlaceItem.swift in Sources */,
 				3CF589A92864E66100A90619 /* MapView.swift in Sources */,
 				47CD30BA286305B6002BF20C /* Place.swift in Sources */,

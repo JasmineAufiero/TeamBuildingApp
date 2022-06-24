@@ -20,4 +20,10 @@ class MapViewModel: NSObject, ObservableObject, CLLocationManagerDelegate {
             latitudeDelta: 0.1,
             longitudeDelta: 0.1))
     
+    @Published var locations : [Place]
+    
+    override init() {
+        let locations = PlaceStorage.places
+        self.locations = locations
+    }
 }
