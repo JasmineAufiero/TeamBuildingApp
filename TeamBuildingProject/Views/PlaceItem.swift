@@ -18,6 +18,8 @@ struct PlaceItem: View {
                 .resizable()
                 .frame(width: 70, height: 70, alignment: .leading)
                 .clipShape(Circle())
+                .shadow(radius: 10)
+                .overlay(Circle().stroke(Color.blue, lineWidth: 2))
             
             
             Text(place.name)
