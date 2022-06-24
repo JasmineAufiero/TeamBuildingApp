@@ -18,7 +18,14 @@ struct MapView: View {
 extension MapView {
     private var map: some View {
         Map(coordinateRegion: $locationManager.region,
-            showsUserLocation: true)
+            showsUserLocation: true,
+            annotationItems: locationManager.locations,
+            annotationContent: { local in
+            MapAnnotation(coordinate: local.coordinate){
+                PinView()
+            }
+            
+        })
     }
 }
 

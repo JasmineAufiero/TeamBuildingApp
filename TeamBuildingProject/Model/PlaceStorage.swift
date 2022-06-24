@@ -29,7 +29,7 @@ class PlaceStorage {
               location: "Corso San Giovanni a Teduccio 309-311, 80146 Napoli",
               link: "https://www.frosinagastronomia.it",
               isFavorite: false,
-              coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
+              coordinate: CLLocationCoordinate2D(latitude: 40.835225944183435, longitude: 14.304629855510392)
                 ),
         
         Place(name: "Ermenegildo",
@@ -40,7 +40,7 @@ class PlaceStorage {
               location: "Viale 2 Giugno, 53, 80146 Napoli NA",
               link: "https://www.tripadvisor.it/Restaurant_Review-g187785-d6696809-Reviews-Ristorante_Bar_Pizzeria_Ermenegildo-Naples_Province_of_Naples_Campania.html",
               isFavorite: false,
-              coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
+              coordinate: CLLocationCoordinate2D(latitude: 40.83827525318104, longitude: 14.312071285251413)
              ),
         
         Place(name: "Reggia di Caserta",
@@ -51,7 +51,7 @@ class PlaceStorage {
               location: "Piazza Carlo di Borbone, 81100 Caserta CE",
               link: "https://reggiadicaserta.cultura.gov.it",
               isFavorite: false,
-              coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
+              coordinate: CLLocationCoordinate2D(latitude: 41.07324906084394, longitude: 14.327257570994716)
                 ),
         Place(name: "Teatro San Carlo",
               suggestions: "If you are under 30 you can get a discount!" ,
@@ -61,7 +61,7 @@ class PlaceStorage {
               location: "Via San Carlo, 98, 80132 Napoli NA",
               link: "https://www.teatrosancarlo.it",
               isFavorite: false,
-              coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
+              coordinate: CLLocationCoordinate2D(latitude: 40.837655137936885, longitude: 14.249573424962529)
                 ),
         Place(name: "La Pokeria",
               suggestions: "Don't just get rise, explore the menu!" ,
@@ -71,7 +71,7 @@ class PlaceStorage {
               location: "Corso Giuseppe Garibaldi, 60, 80055 Portici NA",
               link: "https://lapokeria.it",
               isFavorite: false,
-              coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
+              coordinate: CLLocationCoordinate2D(latitude: 40.81487455613758, longitude: 14.335779669139107)
                 ),
         Place(name: "Reggia di Portici",
               suggestions: "If you can, visit also the Reggia di Caserta!" ,
@@ -81,7 +81,7 @@ class PlaceStorage {
               location: "Via Università, 100, Portici NA",
               link: "https://www.centromusa.it/it/real-sito-di-portici.html",
               isFavorite: false,
-              coordinate: CLLocationCoordinate2D(latitude: 40.855426013368906, longitude: 14.35825845564663)
+              coordinate: CLLocationCoordinate2D(latitude: 40.81983707185033, longitude: 14.341109397974737)
                 )
 //        ,
 //        Place(name: "Shifu Ramen",
