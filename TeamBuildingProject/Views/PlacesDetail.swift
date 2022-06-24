@@ -21,10 +21,12 @@ struct PlacesDetail: View {
                     .resizable()
                     .frame(width: 170, height: 170, alignment: .leading)
                     .clipShape(Circle())
+                    .overlay(Circle().stroke(Color.white, lineWidth: 2))
                 
                 Text(place.name)
                     .font(.title)
                     .fontWeight(.bold)
+                    .foregroundColor(Color.white)
                 
                 VStack(alignment: .leading) {
                     
@@ -32,42 +34,47 @@ struct PlacesDetail: View {
                         .fontWeight(.bold)
                         .multilineTextAlignment(.leading)
                         .padding(.vertical, 2)
+                        .foregroundColor(Color.white)
                     
                     Text(place.suggestions)
                         .font(.body)
                         .multilineTextAlignment(.leading)
-                        .foregroundColor(.secondary)
+                        .foregroundColor(.primary)
                     
                     
                     Text("Description")
                         .fontWeight(.bold)
                         .multilineTextAlignment(.leading)
                         .padding(.vertical, 2)
+                        .foregroundColor(Color.white)
                     
                     Text(place.description)
                         .font(.body)
-                        .foregroundColor(.secondary)
+                        .foregroundColor(.primary)
                         .multilineTextAlignment(.leading)
                     
                     Text("Warnings")
                         .fontWeight(.bold)
                         .multilineTextAlignment(.leading)
                         .padding(.vertical, 2)
+                        .foregroundColor(Color.white)
                     
                     Text(place.warnings)
                         .font(.body)
                         .multilineTextAlignment(.leading)
-                        .foregroundColor(.secondary)
+                        .foregroundColor(.primary)
+                        .foregroundColor(Color.white)
                     
                     Text("Link")
                         .fontWeight(.bold)
                         .multilineTextAlignment(.leading)
                         .padding(.vertical, 2)
+                        .foregroundColor(Color.white)
                     
                     Text(place.link)
                         .font(.body)
                         .multilineTextAlignment(.leading)
-                        .foregroundColor(.secondary)
+                        .foregroundColor(.primary)
                     
                 
                 }.padding(.horizontal)
@@ -75,6 +82,7 @@ struct PlacesDetail: View {
                 
             }
         }
+        .background(Color(place.color))
     }
 }
 
