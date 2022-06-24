@@ -28,7 +28,7 @@ class PlaceStorage {
               warnings: "Frosina is a meeting place for some students of the Academy, but mainly for mentors, so keep your eyes and ears sharp!",
               location: "Corso San Giovanni a Teduccio 309-311, 80146 Napoli",
               link: "https://www.frosinagastronomia.it",
-              isFavorite: false,
+              color: "color2",
               coordinate: CLLocationCoordinate2D(latitude: 40.835225944183435, longitude: 14.304629855510392)
                 ),
         
@@ -39,7 +39,7 @@ class PlaceStorage {
               warnings: "Start small and work your way to the big pizza fritta!",
               location: "Viale 2 Giugno, 53, 80146 Napoli NA",
               link: "https://www.tripadvisor.it/Restaurant_Review-g187785-d6696809-Reviews-Ristorante_Bar_Pizzeria_Ermenegildo-Naples_Province_of_Naples_Campania.html",
-              isFavorite: false,
+              color: "color3",
               coordinate: CLLocationCoordinate2D(latitude: 40.83827525318104, longitude: 14.312071285251413)
              ),
         
@@ -50,7 +50,7 @@ class PlaceStorage {
               warnings: "Don't go in the spring time if you suffer from allergies!",
               location: "Piazza Carlo di Borbone, 81100 Caserta CE",
               link: "https://reggiadicaserta.cultura.gov.it",
-              isFavorite: false,
+              color: "color4",
               coordinate: CLLocationCoordinate2D(latitude: 41.07324906084394, longitude: 14.327257570994716)
                 ),
         Place(name: "Teatro San Carlo",
@@ -60,7 +60,7 @@ class PlaceStorage {
               warnings: "Wear something light, because even during winter it's hot inside",
               location: "Via San Carlo, 98, 80132 Napoli NA",
               link: "https://www.teatrosancarlo.it",
-              isFavorite: false,
+              color: "color1",
               coordinate: CLLocationCoordinate2D(latitude: 40.837655137936885, longitude: 14.249573424962529)
                 ),
         Place(name: "La Pokeria",
@@ -70,7 +70,7 @@ class PlaceStorage {
               warnings: "The bowls are NOT small!",
               location: "Corso Giuseppe Garibaldi, 60, 80055 Portici NA",
               link: "https://lapokeria.it",
-              isFavorite: false,
+              color: "color2",
               coordinate: CLLocationCoordinate2D(latitude: 40.81487455613758, longitude: 14.335779669139107)
                 ),
         Place(name: "Reggia di Portici",
@@ -80,7 +80,7 @@ class PlaceStorage {
               warnings: "Beware if you suffer from allergies and you want to visit the woods!",
               location: "Via Università, 100, Portici NA",
               link: "https://www.centromusa.it/it/real-sito-di-portici.html",
-              isFavorite: false,
+              color: "color3",
               coordinate: CLLocationCoordinate2D(latitude: 40.81983707185033, longitude: 14.341109397974737)
                 )
 //        ,
